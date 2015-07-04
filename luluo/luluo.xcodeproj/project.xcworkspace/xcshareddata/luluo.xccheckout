@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7D2B724B-0888-4217-A767-14ED60D9A917</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>596D1B3EBB9C2B5DD3967D7E7032F9C59E5E0548</key>
+		<string>https://github.com/baibai2013/lvluo-design.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>luluo/luluo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>596D1B3EBB9C2B5DD3967D7E7032F9C59E5E0548</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/baibai2013/lvluo-design.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>596D1B3EBB9C2B5DD3967D7E7032F9C59E5E0548</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>596D1B3EBB9C2B5DD3967D7E7032F9C59E5E0548</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lvluo-design</string>
+		</dict>
+	</array>
+</dict>
+</plist>
