@@ -13,6 +13,8 @@
 		22AB3E231B47AD24001DDF36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AB3E221B47AD24001DDF36 /* Images.xcassets */; };
 		22AB3E261B47AD24001DDF36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AB3E241B47AD24001DDF36 /* Main.storyboard */; };
 		22AB3E321B47AD24001DDF36 /* luluoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3E311B47AD24001DDF36 /* luluoTests.m */; };
+		22AB3E3C1B47B229001DDF36 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AB3E3B1B47B229001DDF36 /* AppKit.framework */; };
+		22AB3E3E1B47B258001DDF36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22AB3E3D1B47B258001DDF36 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		22AB3E2B1B47AD24001DDF36 /* luluoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = luluoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AB3E301B47AD24001DDF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22AB3E311B47AD24001DDF36 /* luluoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = luluoTests.m; sourceTree = "<group>"; };
+		22AB3E3B1B47B229001DDF36 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		22AB3E3D1B47B258001DDF36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22AB3E3E1B47B258001DDF36 /* Foundation.framework in Frameworks */,
+				22AB3E3C1B47B229001DDF36 /* AppKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +67,8 @@
 		22AB3E0C1B47AD23001DDF36 = {
 			isa = PBXGroup;
 			children = (
+				22AB3E3D1B47B258001DDF36 /* Foundation.framework */,
+				22AB3E3B1B47B229001DDF36 /* AppKit.framework */,
 				22AB3E171B47AD23001DDF36 /* luluo */,
 				22AB3E2E1B47AD24001DDF36 /* luluoTests */,
 				22AB3E161B47AD23001DDF36 /* Products */,
