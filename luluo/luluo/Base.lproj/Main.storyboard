@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14E46" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7531"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -689,16 +689,16 @@
             </objects>
             <point key="canvasLocation" x="92" y="311"/>
         </scene>
-        <!--Split View Controller-->
+        <!--My Split View Controller-->
         <scene sceneID="zzT-9w-Fbt">
             <objects>
-                <splitViewController id="VSu-2T-Wd6" sceneMemberID="viewController">
+                <splitViewController id="VSu-2T-Wd6" customClass="mySplitViewController" sceneMemberID="viewController">
                     <splitViewItems>
                         <splitViewItem id="8xL-v3-EXz"/>
                         <splitViewItem id="qyZ-T5-Mxw"/>
                     </splitViewItems>
                     <splitView key="splitView" dividerStyle="thin" vertical="YES" id="PsT-uu-Jkk">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="-16" width="450" height="316"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </splitView>
                     <connections>
@@ -708,12 +708,12 @@
                 </splitViewController>
                 <customObject id="aIW-ss-Fg3" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="683" y="277"/>
+            <point key="canvasLocation" x="683" y="269"/>
         </scene>
-        <!--View Controller-->
+        <!--My Out Line View Controller-->
         <scene sceneID="yco-vg-u6S">
             <objects>
-                <viewController id="ABQ-UQ-8Bh" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="ABQ-UQ-8Bh" customClass="myOutLineViewController" sceneMemberID="viewController">
                     <scrollView key="view" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="K5B-M9-IuQ">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -722,7 +722,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="6Fq-Mo-YEq" viewBased="YES" indentationPerLevel="16" outlineTableColumn="3by-fX-G2p" id="phQ-vR-XgM">
-                                    <rect key="frame" x="0.0" y="0.0" width="238" height="117"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="448" height="0.0"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -798,7 +798,7 @@
                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </clipView>
                         <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="BAX-K2-DKz">
-                            <rect key="frame" x="1" y="105.2878338098526" width="209.94556427001953" height="16"/>
+                            <rect key="frame" x="1" y="105.2878338098526" width="210" height="16"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
                         <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="AWb-O3-kDk">
@@ -815,10 +815,10 @@
             </objects>
             <point key="canvasLocation" x="1369" y="179"/>
         </scene>
-        <!--View Controller-->
+        <!--My Context View Controller-->
         <scene sceneID="YJ8-NP-zSK">
             <objects>
-                <viewController id="CNU-TV-gAv" sceneMemberID="viewController">
+                <viewController id="CNU-TV-gAv" customClass="myContextViewController" sceneMemberID="viewController">
                     <scrollView key="view" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="hn0-av-Lv6">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -827,13 +827,13 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <textView importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="U9W-XS-RJp">
-                                    <rect key="frame" x="0.0" y="0.0" width="238" height="133"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="238" height="298"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <size key="minSize" width="448" height="298"/>
+                                    <size key="minSize" width="433" height="298"/>
                                     <size key="maxSize" width="463" height="10000000"/>
                                     <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                    <size key="minSize" width="448" height="298"/>
+                                    <size key="minSize" width="433" height="298"/>
                                     <size key="maxSize" width="463" height="10000000"/>
                                 </textView>
                             </subviews>

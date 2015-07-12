@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4E234F1B4C1F67006A449B /* mySplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E234E1B4C1F67006A449B /* mySplitViewController.m */; };
+		0A4E23521B4C2086006A449B /* myOutLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E23511B4C2086006A449B /* myOutLineViewController.m */; };
+		0A4E23561B4C20CA006A449B /* myContextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4E23541B4C20CA006A449B /* myContextViewController.m */; };
 		22AB3E1C1B47AD23001DDF36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3E1B1B47AD23001DDF36 /* AppDelegate.m */; };
 		22AB3E1E1B47AD23001DDF36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3E1D1B47AD23001DDF36 /* main.m */; };
 		22AB3E211B47AD23001DDF36 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AB3E201B47AD23001DDF36 /* ViewController.m */; };
@@ -28,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A4E234D1B4C1F67006A449B /* mySplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mySplitViewController.h; sourceTree = "<group>"; };
+		0A4E234E1B4C1F67006A449B /* mySplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mySplitViewController.m; sourceTree = "<group>"; };
+		0A4E23501B4C2086006A449B /* myOutLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myOutLineViewController.h; sourceTree = "<group>"; };
+		0A4E23511B4C2086006A449B /* myOutLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myOutLineViewController.m; sourceTree = "<group>"; };
+		0A4E23531B4C20CA006A449B /* myContextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myContextViewController.h; sourceTree = "<group>"; };
+		0A4E23541B4C20CA006A449B /* myContextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myContextViewController.m; sourceTree = "<group>"; };
 		22AB3E151B47AD23001DDF36 /* luluo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = luluo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22AB3E191B47AD23001DDF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22AB3E1A1B47AD23001DDF36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,7 +102,13 @@
 				22AB3E201B47AD23001DDF36 /* ViewController.m */,
 				22AB3E221B47AD24001DDF36 /* Images.xcassets */,
 				22AB3E241B47AD24001DDF36 /* Main.storyboard */,
+				0A4E23531B4C20CA006A449B /* myContextViewController.h */,
+				0A4E23541B4C20CA006A449B /* myContextViewController.m */,
+				0A4E234D1B4C1F67006A449B /* mySplitViewController.h */,
+				0A4E234E1B4C1F67006A449B /* mySplitViewController.m */,
 				22AB3E181B47AD23001DDF36 /* Supporting Files */,
+				0A4E23501B4C2086006A449B /* myOutLineViewController.h */,
+				0A4E23511B4C2086006A449B /* myOutLineViewController.m */,
 			);
 			path = luluo;
 			sourceTree = "<group>";
@@ -223,9 +238,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4E23561B4C20CA006A449B /* myContextViewController.m in Sources */,
 				22AB3E211B47AD23001DDF36 /* ViewController.m in Sources */,
+				0A4E23521B4C2086006A449B /* myOutLineViewController.m in Sources */,
 				22AB3E1E1B47AD23001DDF36 /* main.m in Sources */,
 				22AB3E1C1B47AD23001DDF36 /* AppDelegate.m in Sources */,
+				0A4E234F1B4C1F67006A449B /* mySplitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +433,7 @@
 				22AB3E371B47AD24001DDF36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22AB3E381B47AD24001DDF36 /* Build configuration list for PBXNativeTarget "luluoTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +442,7 @@
 				22AB3E3A1B47AD24001DDF36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
